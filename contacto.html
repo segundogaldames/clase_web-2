@@ -5,34 +5,8 @@
 		<meta charset="UTF-8">
 		<title>Primer proyecto web</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<style type="text/css">
-			header{
-				background-color: #336BFF; 
-				height: 50px;
-				padding-left: 30px;
-			}
-			li{
-				float:left;
-				padding-top: 5px;
-				padding-right: 10px;
-				padding-bottom: 5px;
-				padding-left: 10px;
-				margin-top: 10px;
-				list-style: none;
-			}
-			a{
-				text-decoration: none;
-				color:#FFF;
-			}
-			section{
-				float: left;
-			}
-			footer{
-				width: 100%;
-			}	
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	</head>
-
 	<body>
 		<!--Aquí va el contenido de la web-->
 		<header>
@@ -55,12 +29,12 @@
 			<section style="width: 70%">
 				<h1 style="font-weight: bold;text-align: center">Formulario de Contacto</h1><br>
 				<form action="" method="post">
-					<label>Nombre:</label>
-					<input type="text" name="nombre" placeholder="Tu nombre"><br>
-					<label>Email:</label>
-					<input type="email" name="email" placeholder="Tu correo electrónico"><br>
+					<label>Nombre:</label><br>
+					<input type="text" name="nombre" placeholder="Tu nombre"><br><br>
+					<label>Email:</label><br>
+					<input type="email" name="email" placeholder="Tu correo electrónico"><br><br>
 
-					<label>Pais de Origen:</label>
+					<label>Pais de Origen:</label><br>
 					<select name="pais">
 						<option value="">Seleccione...</option>
 						<option value="1">Chile</option>
@@ -68,10 +42,10 @@
 						<option value="3">Perú</option>
 						<option value="4">Brasil</option>
 						<option value="5">Venezuela</option>
-					</select><br>
-					<label>Comentarios:</label>
-					<textarea name="comentario" cols="13" rows="10" placeholder="Tu comentario"></textarea><br><br>
-					<input type="submit" value="Guardar">
+					</select><br><br>
+					<label>Comentarios:</label><br>
+					<textarea name="comentario" style="width: 100%; resize: none" rows="10" placeholder="Tu comentario"></textarea><br><br>
+					<input type="submit" value="Guardar" class="button">
 				</form>
 			</section>
 		</section>
