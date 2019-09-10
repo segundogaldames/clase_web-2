@@ -19,11 +19,19 @@ a{
 	text-decoration: none;
 	color:#FFF;
 }
+a:hover{
+	text-decoration: underline;
+	color: #F7EB77;
+}
 section{
 	float: left;
 }
 footer{
+	height: 80px;
+	background-color: #336BFF;
+	float: left;
 	width: 100%;
+	margin-top:50px;
 }
 input{
 	width: 100%;
@@ -43,6 +51,10 @@ label{
 select{
 	width:100%;
 }
+
+footer{
+
+}
 .button{
 	background-color: #F7AE77;
 	border: 0;
@@ -52,3 +64,18 @@ select{
 	font-size: 16px;
 	font-weight: bold;
 }
+.img{
+	text-align: center;
+}
+.video{
+	text-align: center;
+}
+.text-blog{
+	margin: 20px;
+	text-align: justify;
+}
+.text-footer{
+	text-align: center;
+	margin-top: 30px;
+	color: #fff;
+}		
