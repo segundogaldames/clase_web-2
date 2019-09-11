@@ -14,21 +14,59 @@
 			<nav>
 				<ul>
 					<li>
-						<a href="index.html">Inicio</a>
+						<a href="index.html" class="nav">Inicio</a>
 					</li>
 					<li>
-					<a href="contacto.html">Contacto</a>
+					<a href="contacto.html" class="nav">Contacto</a>
 					</li>
 					<li>
-					<a href="about.html">Quienes Somos</a>
+					<a href="about.html" class="nav">Quienes Somos</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
-		<section style="width: 100%; margin-top: 20px"><!--etiqueta general de contenido-->
-			<section style="width: 30%">lado izquierdo</section>
+		<!--etiqueta general de contenido-->
+		<section style="width: 100%; margin-top: 20px">
+			<!-- seccion de la izquierda -->
+			<section style="width: 30%">
+				<div class="widget">
+					<div class="enlaces">
+						<h3>Enlaces</h3>
+						<ul>
+							<li>
+								<a href="https://www.tutorialesprogramacionya.com/htmlya/" target="_blank" class="nav-widget">Tutoriales Html</a>
+							</li>
+							<li>
+								<a href="https://lnoussanl.org/javabd/java.php" target="_blank" class="nav-widget">Manual de Java POO</a>
+							</li>
+							<li>
+								<a href="https://www.w3schools.com" target="_blank" class="nav-widget">Academia W3C</a>
+							</li>
+							<li>
+								<a href="https://www.todopatuweb.net/news/como-poner-noticias-en-tu-web/" class="nav-widget">Noticias Html</a>
+							</li>
+						</ul>
+					</div>
+					<div class="enlaces">
+						<h4>Redes Sociales</h4>
+						<a href="https://www.facebook.com/" target="_blank">
+							<img src="img/rss/face.png" class="img-rss">
+						</a>
+						<a href="" target="_blank">
+							<img src="img/rss/twitter.png" class="img-rss">
+						</a>
+						<a href="" target="_blank">
+							<img src="img/rss/linkedin.png" class="img-rss">
+						</a>
+					</div>
+					
+				</div>
+				
+			</section>
+			<!-- fin seccion de la izquierda -->
+			<!-- seccion principal de contenido -->
 			<section style="width: 70%">
-				<h1 style="font-weight: bold;text-align: center">Título del Artículo</h1><br>
+				<h1 class="titulo-blog">Título del Artículo</h1><br>
 				<p class="text-blog">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -50,8 +88,14 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</section>
+			<!-- fin seccion principal de contenido -->
 		</section>
-		<footer>pie de pagina</footer>
+		<!-- fin etiqueta general de contenido-->
+		<footer>
+			<p class="text-footer">
+				&copy;Programación Web 2019
+			</p>
+		</footer>
 	</body>
 
 </html>

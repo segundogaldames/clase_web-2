@@ -6,6 +6,11 @@ header{
 	height: 50px;
 	padding-left: 30px;
 }
+
+h3, h4{
+	text-align: center;
+}
+
 li{
 	float:left;
 	padding-top: 5px;
@@ -15,14 +20,15 @@ li{
 	margin-top: 10px;
 	list-style: none;
 }
-a{
+.nav{
 	text-decoration: none;
 	color:#FFF;
 }
-a:hover{
+.nav:hover{
 	text-decoration: underline;
 	color: #F7EB77;
 }
+
 section{
 	float: left;
 }
@@ -52,9 +58,6 @@ select{
 	width:100%;
 }
 
-footer{
-
-}
 .button{
 	background-color: #F7AE77;
 	border: 0;
@@ -78,4 +81,35 @@ footer{
 	text-align: center;
 	margin-top: 30px;
 	color: #fff;
-}		
+}
+.titulo-blog{
+	font-weight: bold;
+	text-align: center;
+}
+.widget{
+	float: left;
+	width: 80%;
+	background-color: #81AEE9;
+	margin-left: 20px;
+}
+.nav-widget{
+	color: #035153;
+	text-decoration: none;
+}
+.nav-widget:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+.enlaces{
+	float: left;
+	width: 100%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.img-rss{
+	border: 0px;
+	margin: 10px 5px 10px 5px;
+	width: 20px;
+}
+
